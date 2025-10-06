@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-2</title>
+    <link rel="stylesheet" href="task2.css">
+    <script src="task2.js"></script>
+
+</head>
+<body>
+   <header>
+    Nature Webpage
+  </header>
+
+  <div class="container">
+    <aside>
+        <h3>Sidebar</h3>
+            <a href="https://sb.ecobnb.net/app/uploads/sites/3/2020/01/nature-1170x490.jpg">Nature1</a>
+            <a href="https://cdn.pixabay.com/photo/2022/08/08/19/36/landscape-7373484_1280.jpg">Nature2</a>
+            <a href=" https://reasons-prod.storage.googleapis.com/wp-content/uploads/2022/04/shutterstock_1028135845-copy-1-scaled.jpg">Nature3</a>
+            <a href="https://thumbs.dreamstime.com/b/wildflowers-blooming-sunset-nature-scenery-wildflowers-blooming-sunset-nature-scenery-388164189.jpg">Nature4</a>
+    </aside>
+
+    <main>
+      <div class="content-box form-box">
+        <h2>Contact Form</h2>
+        <form id="contactForm" novalidate>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name">
+          <div class="error" id="nameError"></div>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email">
+          <div class="error" id="emailError"></div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="content-box todo-box">
+        <h2>To-Do List</h2>
+        <div class="todo-input">
+          <input type="text" id="taskInput" placeholder="Enter a new task">
+          <button id="addTask">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    &copy; 2025 Nature Website
+  </footer>
+</body>
+</html>
